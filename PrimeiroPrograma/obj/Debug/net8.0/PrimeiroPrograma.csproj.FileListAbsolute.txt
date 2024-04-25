@@ -1,0 +1,15 @@
+C:\dev\C#\CourseCSharpPOONelioAlves\PrimeiroPrograma\bin\Debug\net8.0\PrimeiroPrograma.exe
+C:\dev\C#\CourseCSharpPOONelioAlves\PrimeiroPrograma\bin\Debug\net8.0\PrimeiroPrograma.deps.json
+C:\dev\C#\CourseCSharpPOONelioAlves\PrimeiroPrograma\bin\Debug\net8.0\PrimeiroPrograma.runtimeconfig.json
+C:\dev\C#\CourseCSharpPOONelioAlves\PrimeiroPrograma\bin\Debug\net8.0\PrimeiroPrograma.dll
+C:\dev\C#\CourseCSharpPOONelioAlves\PrimeiroPrograma\bin\Debug\net8.0\PrimeiroPrograma.pdb
+C:\dev\C#\CourseCSharpPOONelioAlves\PrimeiroPrograma\obj\Debug\net8.0\PrimeiroPrograma.GeneratedMSBuildEditorConfig.editorconfig
+C:\dev\C#\CourseCSharpPOONelioAlves\PrimeiroPrograma\obj\Debug\net8.0\PrimeiroPrograma.AssemblyInfoInputs.cache
+C:\dev\C#\CourseCSharpPOONelioAlves\PrimeiroPrograma\obj\Debug\net8.0\PrimeiroPrograma.AssemblyInfo.cs
+C:\dev\C#\CourseCSharpPOONelioAlves\PrimeiroPrograma\obj\Debug\net8.0\PrimeiroPrograma.csproj.CoreCompileInputs.cache
+C:\dev\C#\CourseCSharpPOONelioAlves\PrimeiroPrograma\obj\Debug\net8.0\PrimeiroPrograma.sourcelink.json
+C:\dev\C#\CourseCSharpPOONelioAlves\PrimeiroPrograma\obj\Debug\net8.0\PrimeiroPrograma.dll
+C:\dev\C#\CourseCSharpPOONelioAlves\PrimeiroPrograma\obj\Debug\net8.0\refint\PrimeiroPrograma.dll
+C:\dev\C#\CourseCSharpPOONelioAlves\PrimeiroPrograma\obj\Debug\net8.0\PrimeiroPrograma.pdb
+C:\dev\C#\CourseCSharpPOONelioAlves\PrimeiroPrograma\obj\Debug\net8.0\PrimeiroPrograma.genruntimeconfig.cache
+C:\dev\C#\CourseCSharpPOONelioAlves\PrimeiroPrograma\obj\Debug\net8.0\ref\PrimeiroPrograma.dll
