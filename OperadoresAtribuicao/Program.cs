@@ -32,6 +32,7 @@
 
             b--; // b decrementou - 1
             System.Console.WriteLine(b);  // 10
+            
         }
     }
 }
