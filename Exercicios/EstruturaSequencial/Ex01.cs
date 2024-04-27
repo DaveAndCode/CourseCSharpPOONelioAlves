@@ -1,10 +1,4 @@
-﻿namespace Exercicios
-{
-    class EstruturaSequencial
-    {
-        static void Main(string[] args)
-        {
-            /**
+/**
             * PARTE 1: ESTRUTURA SEQUENCIAL
             * Exercício 1.1:
             * Fazer um programa para ler o código de uma peça 1, o número de peças 1, o valor unitário de cada peça 1, o
@@ -23,7 +17,13 @@
             * 1 1 15.10              VALOR A PAGAR: R$ 30.20
             * 2 1 15.10
             */
-
+            
+namespace Exercicios
+{
+    class Ex01
+    {
+        public static void Exercicio01()
+        {
             Console.Write("Digite o código da peça [1° Produto]: ");
             int peca1Codigo = Convert.ToInt32(Console.ReadLine());
 
@@ -45,8 +45,8 @@
             float valorTotal = (peca1Qtd * peca1Preco) + (peca2Qtd * peca2Preco);
 
             Console.WriteLine($"VALOR A PAGAR: R${valorTotal:0.00}");
-
-
         }
     }
 }
+
+            
