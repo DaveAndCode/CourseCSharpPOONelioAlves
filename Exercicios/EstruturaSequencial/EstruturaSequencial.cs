@@ -6,7 +6,8 @@ namespace EstruturaSequencial
     {
         static void Main(string[] args)
         {
-            Ex01.Exercicio01();
+            // Ex01.Exercicio01();
+            Ex02.Exercicio02();
         }
     }
 }
