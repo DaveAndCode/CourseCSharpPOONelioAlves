@@ -12,7 +12,8 @@ namespace EstruturaSequencial
             // Ex02Aula.Ex02AulaSolucao();
             // Ex03Aula.Ex03AulaSolucao();
             // Ex04Aula.Ex04AulaSolucao();
-            Ex05Aula.Ex05AulaSolucao();
+            // Ex05Aula.Ex05AulaSolucao();
+            Ex06Aula.Ex06AulaSolucao();
         }
     }
 }
