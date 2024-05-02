@@ -23,8 +23,29 @@ namespace EstruturaFor
             int dentro = 0;
             int fora = 0;
 
-            for (int iteracao = 0; iteracao < quantidadeValores; iteracao++)
+            // for (int iteracao = 0; iteracao < quantidadeValores; iteracao++)
+            // {
+            //     Console.Write("Digite o valor: ");
+            //     int valor = int.Parse(Console.ReadLine()!);
+                
+            //     if (valor >= 10 && valor <= 20)
+            //     {
+            //         dentro++;
+            //     }
+            //     else if (valor < 10 || valor > 20)
+            //     {
+            //         fora++;
+            //     }
+            //     Console.WriteLine($"{dentro} in");
+            //     Console.WriteLine($"{fora} out");
+            // }
+
+            int i = 0;
+
+            while (i < quantidadeValores)
             {
+                i++;
+                {
                 Console.Write("Digite o valor: ");
                 int valor = int.Parse(Console.ReadLine()!);
                 
@@ -38,6 +59,7 @@ namespace EstruturaFor
                 }
                 Console.WriteLine($"{dentro} in");
                 Console.WriteLine($"{fora} out");
+            }
             }
         }
     }
