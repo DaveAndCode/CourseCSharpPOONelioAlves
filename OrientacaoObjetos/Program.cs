@@ -1,0 +1,10 @@
+﻿namespace OrientacaoObjetos
+{
+    class Program
+    {
+        static void Main()
+        {
+           ProblemaSemOrientacao.SolucaoDoExercicio();
+        }
+    }
+}
