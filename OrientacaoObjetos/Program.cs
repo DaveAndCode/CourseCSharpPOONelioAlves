@@ -4,7 +4,8 @@
     {
         static void Main()
         {
-           ProblemaSemOrientacao.SolucaoDoExercicio();
+        //    ProblemaSemOrientacao.SolucaoDoExercicio();
+        ProblemaComOrientacao.SolucaoDoExercicio();
         }
     }
 }
