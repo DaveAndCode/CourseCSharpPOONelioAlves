@@ -9,7 +9,8 @@
             // Ex03Aula.Ex03AulaSolucao();
             // Ex04Aula.Ex04AulaSolucao();
             // Ex05Aula.Ex05AulaSolucao();
-            Ex06Aula.Ex06AulaSolucao();
+            // Ex06Aula.Ex06AulaSolucao();
+            Ex07Aula.Ex07AulaSolucao();
         }
     }
 }
