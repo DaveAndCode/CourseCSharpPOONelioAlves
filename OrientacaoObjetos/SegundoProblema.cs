@@ -22,7 +22,7 @@ namespace OrientacaoObjetos
 
             Console.Clear();
 
-            Console.WriteLine($"Dados atualizados: {produto.Nome}, R$ {produto.Preco.ToString("F2", CultureInfo.InvariantCulture)}, {produto.Quantidade} unidades, Total: R$ {produto.ValorTotalEmEstoque().ToString("F2", CultureInfo.InvariantCulture)}");
+            Console.WriteLine($"Dados atualizados: {produto}");
 
             Console.Write("Digite o número de produtos a ser removido do estoque: ");
             quantidade = int.Parse(Console.ReadLine()!);
@@ -30,8 +30,7 @@ namespace OrientacaoObjetos
 
             Console.Clear();
 
-            Console.WriteLine($"Dados atualizados: {produto.Nome}, R$ {produto.Preco}, {produto.Quantidade} unidades, Total: R$ {produto.ValorTotalEmEstoque()}");
-            
+            Console.WriteLine($"Dados atualizados: {produto}");
         }
         public class Produto
         {
