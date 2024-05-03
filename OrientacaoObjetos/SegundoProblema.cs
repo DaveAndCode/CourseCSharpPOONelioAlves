@@ -13,11 +13,9 @@ namespace OrientacaoObjetos
             produto.Preco = double.Parse(Console.ReadLine()!, CultureInfo.InvariantCulture);
             Console.Write("Quantidade no estoque: ");
             produto.Quantidade = int.Parse(Console.ReadLine()!);
-            
             Console.Clear();
-
-            Console.WriteLine($"Dados do produto: {produto.Nome}, R$ {produto.Preco.ToString("F2", CultureInfo.InvariantCulture)}, {produto.Quantidade} unidades, Total: R$ {produto.ValorTotalEmEstoque().ToString("F2", CultureInfo.InvariantCulture)}");
-
+            Console.WriteLine(produto);  // Por conta do método WriteLine, o C# já chamado o .ToString();
+            
             Console.Write("Digite o número de produtos a ser adicionado ao estoque: ");
             int quantidade = int.Parse(Console.ReadLine()!);
             produto.AdicionarProdutos(quantidade);
@@ -55,6 +53,12 @@ namespace OrientacaoObjetos
             public void RemoverProdutos(int quantity)
             {
                 Quantidade -= quantity;
+            }
+
+            // Sobrepondo um método
+            public override string ToString()
+            {
+                return $"Dados do produto: {Nome}, R$ {Preco.ToString("F2", CultureInfo.InvariantCulture)}, {Quantidade} unidades, Total: R$ {ValorTotalEmEstoque().ToString("F2", CultureInfo.InvariantCulture)}";
             }
         }
     }
