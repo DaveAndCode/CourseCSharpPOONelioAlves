@@ -20,8 +20,8 @@ namespace OrientacaoObjetos
             y.B = double.Parse(Console.ReadLine()!, CultureInfo.InvariantCulture);
             y.C = double.Parse(Console.ReadLine()!, CultureInfo.InvariantCulture);
 
-            double trianguloXArea = x.CalcularArea();
-            double trianguloYArea = y.CalcularArea();
+            double trianguloXArea = x.Area();
+            double trianguloYArea = y.Area();
 
             Console.WriteLine("Área de X = " + trianguloXArea.ToString("F4", CultureInfo.InvariantCulture));
             Console.WriteLine("Área de Y = " + trianguloYArea.ToString("F4", CultureInfo.InvariantCulture));
@@ -41,14 +41,14 @@ namespace OrientacaoObjetos
     public class Triangulo  // Criando a classe Triangulo
     {
         // Atributos
-        public double A, B, C, P, Area;
+        public double A, B, C, P, AreaFinal;
 
         // Métodos
-        public double CalcularArea()
+        public double Area()
         {
             P = (A + B + C) / 2;
-            Area = Math.Sqrt(P * (P - A) * (P - B) * (P - C));
-            return Area;
+            AreaFinal = Math.Sqrt(P * (P - A) * (P - B) * (P - C));
+            return AreaFinal;
         }
     }
 }
