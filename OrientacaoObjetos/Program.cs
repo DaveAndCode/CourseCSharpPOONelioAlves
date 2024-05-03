@@ -5,7 +5,8 @@
         static void Main()
         {
         //    ProblemaSemOrientacao.SolucaoDoExercicio();
-        ProblemaComOrientacao.SolucaoDoExercicio();
+        // ProblemaComOrientacao.SolucaoDoExercicio();
+        SegundoProblema.Solucao();
         }
     }
 }
