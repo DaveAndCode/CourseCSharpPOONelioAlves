@@ -1,4 +1,6 @@
-﻿namespace OrientacaoObjetos
+﻿using OrientacaoObjetoss;
+
+namespace OrientacaoObjetos
 {
     class Program
     {
@@ -6,7 +8,8 @@
         {
             // Ex01Aula.SolucaoExercicio();
             // Ex02Aula.SolucaoExercicio();
-            Ex01Fixacao.Solucao();
+            // Ex01Fixacao.Solucao();
+            Ex02Fixacao.Solucao();
         }
     }
 }
