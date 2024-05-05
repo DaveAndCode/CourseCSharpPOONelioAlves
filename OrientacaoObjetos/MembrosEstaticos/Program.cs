@@ -7,7 +7,8 @@ namespace MembrosEstaticos
         static void Main(string[] args)
         {
             // Versao1.Solucao();
-            Versao2.Solucao();
+            // Versao2.Solucao();
+            Versao3.Solucao();
         }
 
        
