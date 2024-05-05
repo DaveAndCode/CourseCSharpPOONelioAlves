@@ -6,7 +6,8 @@ namespace MembrosEstaticos
     {
         static void Main(string[] args)
         {
-            Versao1.Solucao();
+            // Versao1.Solucao();
+            Versao2.Solucao();
         }
 
        
