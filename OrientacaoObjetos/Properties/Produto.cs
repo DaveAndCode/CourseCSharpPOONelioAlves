@@ -13,6 +13,7 @@ namespace Properties
         public double Preco { get; private set; }  // Auto Properties
         public int Quantidade {get; private set; }  // Auto Properties
 
+        // Constructors
         public Produto()
         {
 
@@ -26,7 +27,7 @@ namespace Properties
         }
 
 
-        // Properties
+        // "Custom" Properties
         public string Nome
         {
             get { return _nome!;}
