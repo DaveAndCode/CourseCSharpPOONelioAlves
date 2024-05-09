@@ -51,6 +51,7 @@ namespace OrientacaoObjetos
     class ContaBancaria
     {
         private double _taxaSaque = -5.00;
+
         public double Saldo { get; private set; }
         public int Numero { get; private set; }
         public string? Titular { get; set;}
@@ -64,9 +65,9 @@ namespace OrientacaoObjetos
 
 
         // Construtor com 3 parâmetros, reaproveitando os valores do construtor acima
-        public ContaBancaria(string titular, int numero, double saldo) : this(titular, numero)
+        public ContaBancaria(string titular, int numero, double depositoInicial) : this(titular, numero)
         {
-            Saldo = saldo;
+            Depositar(depositoInicial);
         }
 
 
