@@ -10,6 +10,22 @@ namespace Sobrecarga
             - É um recurso que uma classe possui de oferecer mais de uma operação com o mesm onome, porém com diferentes listas de parâmetros.
             */
 
+            // Sintaxe alternativa para incializar valores
+            Produto product = new Produto()  // No momento da instância do objeto "product"
+            {
+                Nome = "TV",
+                Preco = 900.0,
+                Quantidade = 0
+
+            };
+
+            Produto productNew = new Produto  // Isso funciona mesmo se a classe não possuir construtores implementados.
+            {
+                Nome = "Computador",
+                Preco = 3600,
+                Quantidade = 2
+            };
+
             Console.WriteLine("Entre os dados do produto:");
             Console.Write("Nome: ");
             string nome = Console.ReadLine();

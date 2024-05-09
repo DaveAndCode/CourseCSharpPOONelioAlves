@@ -23,6 +23,12 @@ namespace Sobrecarga
             Quantidade = 0;
         }
 
+        // Construtor overload (sobrecarga) de 0 argumentos
+        public Produto()
+        {
+
+        }
+
         public double ValorTotalEmEstoque()
         {
             return Preco * Quantidade;
