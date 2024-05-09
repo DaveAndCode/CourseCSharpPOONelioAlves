@@ -16,6 +16,13 @@
             produto.Nome = "TV 4K";  // Aqui usa-se a sintaxe de atributo, porém está sendo acesso com properties da classe.
 
             Console.WriteLine(produto.Preco.ToString("F2"));
+
+            /*
+             - Auto Properties
+             - É uma forma simplificada de se declarar propriedades que não necessitam lógicas particulares para as operações get e set.
+
+             public double Preco {get; private set;}
+            */
        }
     }
 }

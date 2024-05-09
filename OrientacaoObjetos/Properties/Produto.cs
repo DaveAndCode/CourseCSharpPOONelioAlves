@@ -2,9 +2,16 @@ namespace Properties
 {
     class Produto
     {
+         /*
+             - Auto Properties
+             - É uma forma simplificada de se declarar propriedades que não necessitam lógicas particulares para as operações get e set.
+
+             public double Preco {get; private set;}
+            */
+
         private string? _nome;
-        private double _preco;
-        private int _quantidade;
+        public double Preco { get; private set; }  // Auto Properties
+        public int Quantidade {get; private set; }  // Auto Properties
 
         public Produto()
         {
@@ -14,8 +21,8 @@ namespace Properties
         public Produto(string nome, double preco, int quantidade)
         {
             _nome = nome;
-            _preco = preco;
-            _quantidade = quantidade;
+            Preco = preco;
+            Quantidade = quantidade;
         }
 
 
@@ -23,7 +30,7 @@ namespace Properties
         public string Nome
         {
             get { return _nome!;}
-            
+
             set
             {
                 if (value != null && value.Length > 1)
@@ -31,16 +38,6 @@ namespace Properties
                     _nome = value;
                 }
             }
-        }
-
-        public double Preco
-        {
-            get { return _preco; }
-        }
-
-        public int Quantidade
-        {
-            get { return _quantidade; }
         }
     }
 }
