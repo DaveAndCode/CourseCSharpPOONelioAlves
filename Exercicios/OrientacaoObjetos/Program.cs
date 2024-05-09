@@ -10,7 +10,8 @@ namespace OrientacaoObjetos
             // Ex02Aula.SolucaoExercicio();
             // Ex01Fixacao.Solucao();
             // Ex02Fixacao.Solucao();
-            Ex03Fixacao.Solucao();
+            // Ex03Fixacao.Solucao();
+            Ex04Fixacao.Solucao();
         }
     }
 }
